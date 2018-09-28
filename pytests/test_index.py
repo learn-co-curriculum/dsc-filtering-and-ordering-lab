@@ -41,8 +41,8 @@ def test_select_name_and_age_of_three_youngest_dogs():
 
 def test_select_name_and_breed_of_dogs_between_age_five_and_ten_ordered_by_oldest_to_youngest():
     result = [('McGruff', 'bloodhound'), ('Snowy', 'fox terrier'), ('Lassie', 'collie'), ('Scooby', 'great dane'), ('Little Ann', 'coonhound')]
-    assert table.execute(select_name_and_breed_of_dogs_between_age_five_and_ten_ordered_by_oldest_to_youngest()).fetchall()) == result
+    assert table.execute(select_name_and_breed_of_dogs_between_age_five_and_ten_ordered_by_oldest_to_youngest()).fetchall() == result
 
 def test_select_select_name_age_and_hungry_of_hungry_dogs_between_age_two_and_seven_in_alphabetical_order():
     result = [(None, 4, 1), ('Clifford', 4, 1), ('Lassie', 7, 1), ('Scooby', 6, 1), ('Snoopy', 3, 1)]
-    assert table.execute(select_name_age_and_hungry_of_hungry_dogs_between_age_two_and_seven_in_alphabetical_order()).fetchall()) == result
+    assert table.execute(select_name_age_and_hungry_of_hungry_dogs_between_age_two_and_seven_in_alphabetical_order()).fetchall() == result
