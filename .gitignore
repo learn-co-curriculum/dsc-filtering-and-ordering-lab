@@ -1,5 +1,5 @@
-.ipynb_checkpoints
 .DS_Store
-__pycache__
-*.db
+*.ipynb_checkpoints
 *.pytest_cache
+*.pyc
+*__pycache__
