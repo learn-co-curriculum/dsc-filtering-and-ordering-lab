@@ -10,7 +10,7 @@ You will be able to:
 * Filter results using `BETWEEN` and `IS NULL`
 * Order the results of your queries by using `ORDER BY` (`ASC` & `DESC`)
 
-### Famous Dogs
+## Famous Dogs
 
 We have a database full of famous dogs!  The `dogs` table is populated with the following data:
 
