@@ -1,10 +1,9 @@
 
 # Filtering and Ordering - Lab
 
-For the old version of this lab go [here](https://github.com/learn-co-curriculum/dsc-1-05-08-filtering-and-ordering-lab-old).
 
 ## Introduction
-In this lab, we will write more `SELECT` statements to solidify our ability to query a SQL database.  We will also write more specific queries using the tools we learned in the previous lesson.
+In this lab, you will write more `SELECT` statements to solidify your ability to query a SQL database. You will also write more specific queries using the tools you learned in the previous lesson.
 
 ## Objectives
 You will be able to:
@@ -14,7 +13,7 @@ You will be able to:
 
 ### Famous Dogs
 
-We have a database full of famous dogs!  The `dogs` table is populated with the following data:
+Here's a database full of famous dogs!  The `dogs` table is populated with the following data:
 
 |name      |age    |gender |breed           |temperament|hungry |
 |----------|-------|-------|----------------|-----------|-------|
@@ -37,30 +36,7 @@ First, import sqlite3 and establish a connection to the database **dogs.db**. Th
 #Your code here; import sqlite, create a connection and then a cursor object.
 ```
 
-## Review
-
-As a quick review, here's the code we used to generate this table:
-
-```
-cur.execute("""CREATE TABLE dogs (id INTEGER PRIMARY KEY,
-                                   name TEXT, age INTEGER,
-                                   gender CHAR(1),
-                                   breed TEXT,
-                                   temperament TEXT,
-                                   hungry BOOLEAN);""")
-
-cur.execute("""INSERT INTO dogs (name, age, gender, breed, temperament, hungry) VALUES
-                ("Snoopy", 3, "M", "beagle", "friendly", 1),
-                ("McGruff", 10, "M", "bloodhound", "aware", 0),
-                ("Scooby", 6, "M", "great dane", "hungry", 1),
-                ("Little Ann", 5, "F", "coonhound", "loyal", 0),
-                ("Pickles", 13, "F", "black lab", "mischievous", 1),
-                ("Clifford", 4, "M", "big red", "smiley", 1),
-                ("Lassie", 7, "F", "collie", "loving", 1),
-                ("Snowy", 8, "F", "fox terrier", "adventurous", 0),
-                (NULL, 4, "M", "golden retriever", "playful", 1);""")
-conn.commit() #Save our changes to the database
-```
+ 
 
 ## Queries
 
@@ -124,4 +100,4 @@ Display the outputs for each of the following query descriptions.
 
 ## Summary
 
-Great work! In this lab we practiced writing more complex SQL statements to not only query specific information but also define the quantity of results and the order of our results. 
+Great work! In this lab you practiced writing more complex SQL statements to not only query specific information but also define the quantity of results and the order of your results. 
