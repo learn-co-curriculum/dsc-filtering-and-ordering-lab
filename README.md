@@ -42,56 +42,56 @@ First, import sqlite3 and establish a connection to the database **dogs.db**. Th
 
 Display the outputs for each of the following query descriptions.
 
-* Select the name and breed for all female dogs
+### Select the name and breed for all female dogs
 
 
 ```python
 #Your code here
 ```
 
-* Select the names of all dogs listed in alphabetical order.  Notice that SQL lists the nameless dog first.
+### Select the names of all dogs listed in alphabetical order.  Notice that SQL lists the nameless dog first.
 
 
 ```python
 #Your code here
 ```
 
-* Select any dog that doesn't have a name
+### Select any dog that doesn't have a name
 
 
 ```python
 #Your code here
 ```
 
-* Select the name and breed of only the hungry dogs and lists them from youngest to oldest
+### Select the name and breed of only the hungry dogs and list them from youngest to oldest
 
 
 ```python
 #Your code here
 ```
 
-* Select the oldest dog's name, age, and temperament
+### Select the oldest dog's name, age, and temperament
 
 
 ```python
 #Your code here
 ```
 
-* Select the three youngest dogs
+### Select the three youngest dogs
 
 
 ```python
 #Your code here
 ```
 
-* Select the name and breed of only the dogs who are between five and ten years old
+### Select the name and breed of the dogs who are between five and ten years old, ordered from oldest to youngest
 
 
 ```python
 #Your code here
 ```
 
-* Select the name, age, and hungry columns for hungry dogs between the ages of two and seven.  This query should also list these dogs in alphabetical order.
+### Select the name, age, and hungry columns for hungry dogs between the ages of two and seven.  This query should also list these dogs in alphabetical order.
 
 
 ```python
