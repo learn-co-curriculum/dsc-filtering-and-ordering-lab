@@ -191,4 +191,4 @@ cur.execute("""SELECT name, age, hungry FROM dogs WHERE hungry = 1 AND age BETWE
 
 ## Summary
 
-Great work! In this lab you practiced writing more complex SQL statements to not only query specific information but also define the quantity of results and the order of your results. 
+Great work! In this lab you practiced writing more complex SQL statements to not only query specific information but also define the quantity and order of your results. 
