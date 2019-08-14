@@ -45,7 +45,7 @@ cur = conn.cursor()
 
 Display the outputs for each of the following query descriptions.
 
-* Select the name and breed for all female dogs
+### Select the name and breed for all female dogs
 
 
 ```python
@@ -63,7 +63,7 @@ cur.execute("""SELECT name, breed FROM dogs WHERE gender = 'F';""").fetchall()
 
 
 
-* Select the names of all dogs listed in alphabetical order.  Notice that SQL lists the nameless dog first.
+### Select the names of all dogs listed in alphabetical order.  Notice that SQL lists the nameless dog first.
 
 
 ```python
@@ -86,7 +86,7 @@ cur.execute("""SELECT name FROM dogs ORDER BY name;""").fetchall()
 
 
 
-* Select any dog that doesn't have a name
+### Select any dog that doesn't have a name
 
 
 ```python
@@ -101,7 +101,7 @@ cur.execute("""SELECT * FROM dogs WHERE name IS NULL;""").fetchall()
 
 
 
-* Select the name and breed of only the hungry dogs and lists them from youngest to oldest
+### Select the name and breed of only the hungry dogs and list them from youngest to oldest
 
 
 ```python
@@ -121,7 +121,7 @@ cur.execute("""SELECT name, breed FROM dogs WHERE hungry = 1 ORDER BY age;""").f
 
 
 
-* Select the oldest dog's name, age, and temperament
+### Select the oldest dog's name, age, and temperament
 
 
 ```python
@@ -136,7 +136,7 @@ cur.execute("""SELECT name, age, temperament FROM dogs ORDER BY age DESC LIMIT 1
 
 
 
-* Select the three youngest dogs
+### Select the three youngest dogs
 
 
 ```python
@@ -151,7 +151,7 @@ cur.execute("""SELECT name, age FROM dogs ORDER BY age LIMIT 3;""").fetchall()
 
 
 
-* Select the name and breed of only the dogs who are between five and ten years old
+### Select the name and breed of the dogs who are between five and ten years old, ordered from oldest to youngest
 
 
 ```python
@@ -170,7 +170,7 @@ cur.execute("""SELECT name, breed FROM DOGS WHERE age BETWEEN 5 AND 10 ORDER BY 
 
 
 
-* Select the name, age, and hungry columns for hungry dogs between the ages of two and seven.  This query should also list these dogs in alphabetical order.
+### Select the name, age, and hungry columns for hungry dogs between the ages of two and seven.  This query should also list these dogs in alphabetical order.
 
 
 ```python
