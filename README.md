@@ -7,9 +7,10 @@ In this lab, you will write more `SELECT` statements to solidify your ability to
 
 ## Objectives
 You will be able to:
+* Write SQL queries to filter and order results
+* Order the results of your queries by using `ORDER BY` (`ASC` & `DESC`)
 * Limit the number of records returned by a query using `LIMIT`
 * Filter results using `BETWEEN` and `IS NULL`
-* Order the results of your queries by using `ORDER BY` (`ASC` & `DESC`)
 
 ### Famous Dogs
 
