@@ -188,7 +188,7 @@ Display the outputs for each of the following query descriptions.
 ### Select the name and breed for all female dogs
 
 <details>
-    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <summary style="cursor: pointer; display: inline"><h4>Click for hint:</h4></summary>
     <p>Use <code>WHERE</code> with the <code>=</code> operator</p>
 </details>
 
@@ -262,7 +262,7 @@ SELECT name, breed
 ### Select the number of dogs that do not have a name
 
 <details>
-    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <summary style="cursor: pointer; display: inline"><h4>Click for hint:</h4></summary>
     <p>Use <code>COUNT</code> and <code>IS NULL</code></p>
 </details>
 
@@ -319,7 +319,7 @@ SELECT COUNT(*) AS num_dogs
 ### Select the names of all dogs that contain the double letters `ff` or `oo`
 
 <details>
-    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <summary style="cursor: pointer; display: inline"><h4>Click for hint:</h4></summary>
     <p>Use <code>LIKE</code>, <code>%</code>, and <code>OR</code></p>
 </details>
 
@@ -389,7 +389,7 @@ SELECT name
 ### Select the names of all dogs listed in alphabetical order.  Notice that SQL lists the nameless dog first.
 
 <details>
-    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <summary style="cursor: pointer; display: inline"><h4>Click for hint:</h4></summary>
     <p>Use <code>ORDER BY</code></p>
 </details>
 
@@ -558,7 +558,7 @@ SELECT name, breed
 ### Select the oldest dog's name, age, and temperament
 
 <details>
-    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <summary style="cursor: pointer; display: inline"><h4>Click for hint:</h4></summary>
     <p>Use <code>ORDER BY</code> with <code>LIMIT</code></p>
 </details>
 
@@ -685,7 +685,7 @@ SELECT name, age
 ### Select the name and breed of the dogs who are between five and ten years old, ordered from oldest to youngest
 
 <details>
-    <summary style="cursor: pointer"><h4>Click for hint:</h4></summary>
+    <summary style="cursor: pointer; display: inline"><h4>Click for hint:</h4></summary>
     <p>Use <code>WHERE</code> with <code>BETWEEN</code></p>
 </details>
 
